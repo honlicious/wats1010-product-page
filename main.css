@@ -4,5 +4,100 @@
 body {
     padding-top: 30px;
     padding-bottom: 20px;
-    color: green;
+}
+.top-header {
+	background-image: url('images/cover.jpg');
+	min-height: 400px;
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-size: cover;
+}
+header h1 {
+	font-size: 75px;
+	color: red;	
+	margin-bottom: 0;
+}
+header p {
+	font-size: 30px;
+	color: black;
+}
+.main-nav {
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+.main-nav li {
+	display: inline;
+	padding: 15px;
+	font-size: 20px;
+}
+#introduction {
+	max-width: 600px;
+	margin: 0px 20px;
+	float: left;
+}
+#video{
+	margin-top: 25px;
+}
+.button {
+	margin-top: -50px;
+}
+.button li {
+	display: inline;
+	padding: 50px;
+	margin: auto;
+}
+
+.social-links li {
+	display: inline;
+}
+#features {
+	clear: top;
+}
+#testimonials ul {
+	list-style: none;
+}
+#testimonials li {
+	float: left;
+	max-width: 400px;
+	width: 33%;
+	text-align: center;
+	margin-bottom: 16px;
+}
+#testimonials + p {
+	clear: both;
+}
+
+/******BROWSE API LIST******/
+.container h3 {
+	font-size: 40px
+}
+.apilist-logo {
+	float: left;
+}
+.apilist-details {
+	float: left;
+	margin-left: 20px;
+}
+.apilist-company {
+	font-size: 30px;
+	font-weight: bolder;
+}
+.apilist-category {
+	font-weight: bold;
+}
+.apilist-side {
+	float: right;
+	margin-top: 13px;
+}
+.apilist-price {
+	text-align: center;
+	font-size: 20px;
+    font-weight: 800;
+}
+
+/******FOOTER******/
+footer {
+	background-color: blue;
+	border-style: 5px solid black;
 }
