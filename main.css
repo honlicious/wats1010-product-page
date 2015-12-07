@@ -6,6 +6,9 @@ body {
     padding-bottom: 20px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
 /*.top-header {
 	min-height: 400px;
 	background-image: url("Images/cover.jpg");
@@ -35,6 +38,7 @@ header p {
 }
 .main-nav {
 	float:right;
+<<<<<<< HEAD
 =======
 .top-header {
 	background-image: url('Images/cover.jpg');
@@ -57,6 +61,8 @@ header p {
 	right: 15px;
 	top: 10px;
 >>>>>>> gh-pages
+=======
+>>>>>>> gh-pages
 }
 .main-nav li {
 	display: inline;
@@ -64,6 +70,9 @@ header p {
 	font-size: 20px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
 
 #introduction {
 	padding-left: 40px;
@@ -80,6 +89,7 @@ header p {
 .button {
 	margin: 30px;
 }
+<<<<<<< HEAD
 =======
 #introduction {
 	max-width: 600px;
@@ -99,6 +109,8 @@ header p {
 }
 
 >>>>>>> gh-pages
+=======
+>>>>>>> gh-pages
 .social-links li {
 	display: inline;
 }
@@ -106,6 +118,9 @@ header p {
 	clear: top;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
 
 /*****TESTIMONIALS*****/
 #testimonials .col-md-4 {
@@ -120,6 +135,7 @@ header p {
 }
 .apilist-details {
 	float: left;
+<<<<<<< HEAD
 =======
 #testimonials ul {
 	list-style: none;
@@ -146,6 +162,8 @@ header p {
 	float: left;
 	margin-left: 20px;
 >>>>>>> gh-pages
+=======
+>>>>>>> gh-pages
 }
 .apilist-company {
 	font-size: 30px;
@@ -156,14 +174,21 @@ header p {
 }
 .apilist-side {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	text-align: center;
 =======
+>>>>>>> gh-pages
+=======
+	text-align: center;
 >>>>>>> gh-pages
 	float: right;
 	margin-top: 13px;
 }
 .apilist-price {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> gh-pages
 	font-size: 20px;
     font-weight: 800;
 }
@@ -185,6 +210,10 @@ header p {
 	margin-bottom: 0;
 }
 .contact-detail a:link {
+<<<<<<< HEAD
+=======
+	color: blue;
+>>>>>>> gh-pages
 	text-decoration: none;
 } 
 /***GET STARTED***/
@@ -207,6 +236,7 @@ footer {
 	width: 100%;
 	height: 40px;
 	background-color: rgba(117, 60, 68, 0.42);
+<<<<<<< HEAD
 =======
 	text-align: center;
 	font-size: 20px;
@@ -216,6 +246,8 @@ footer {
 /******FOOTER******/
 footer {
 	background-color: blue;
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
 	border-style: 5px solid black;
 }
