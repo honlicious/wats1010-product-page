@@ -2,82 +2,80 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
+/*    padding-top: 30px;*/
     padding-bottom: 20px;
 }
-.top-header {
-	background-image: url('Images/cover.jpg');
+/*.top-header {
 	min-height: 400px;
+	background-image: url("Images/cover.jpg");
 	background-repeat: no-repeat;
 	background-position: center, center;
 	background-size: cover;
-}
+}*/
 header h1 {
+	margin: 0;
+}
+header h1 a {
 	font-size: 75px;
 	color: red;	
 	margin-bottom: 0;
+	text-shadow: 2px 2px;
+}
+header h1 a:hover {
+	color: red;
+	text-decoration: none;
 }
 header p {
-	font-size: 30px;
+	font-size: 15px;
 	color: black;
 }
+.image-header img {
+	width: 100%;
+}
 .main-nav {
-	position: absolute;
-	right: 15px;
-	top: 10px;
+	float:right;
 }
 .main-nav li {
 	display: inline;
 	padding: 15px;
 	font-size: 20px;
 }
+
 #introduction {
-	max-width: 600px;
-	margin: 0px 20px;
-	float: left;
+	padding-left: 40px;
+	padding-right: 40px
 }
+
 #video{
 	margin-top: 25px;
-}
-.button {
-	margin-top: -50px;
 }
 .button li {
 	display: inline;
 	padding: 50px;
-	margin: auto;
 }
-
+.button {
+	margin: 30px;
+}
 .social-links li {
 	display: inline;
 }
 #features {
 	clear: top;
 }
-#testimonials ul {
-	list-style: none;
-}
-#testimonials li {
-	float: left;
-	max-width: 400px;
-	width: 33%;
+
+/*****TESTIMONIALS*****/
+#testimonials .col-md-4 {
 	text-align: center;
-	margin-bottom: 16px;
-}
-#testimonials + p {
-	clear: both;
 }
 
 /******BROWSE API LIST******/
-.container h3 {
-	font-size: 40px
-}
-.apilist-logo {
-	float: left;
+#browseapis h3 {
+	font-size: 40px;
+	background-color: red;
+	color: white;
 }
 .apilist-details {
 	float: left;
-	margin-left: 20px;
 }
 .apilist-company {
 	font-size: 30px;
@@ -87,17 +85,54 @@ header p {
 	font-weight: bold;
 }
 .apilist-side {
+	text-align: center;
 	float: right;
 	margin-top: 13px;
 }
 .apilist-price {
-	text-align: center;
 	font-size: 20px;
     font-weight: 800;
 }
-
+/******CONTACT US******/
+#contactus h3 {
+	font-size: 40px;
+	background-color: red;
+	color: white;
+}
+.contact-logo {
+	text-align: center;
+}
+.contact-detail {
+	margin-top: 20px;
+	text-align: center;
+}
+.contact-detail p:first-child {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.contact-detail a:link {
+	color: blue;
+	text-decoration: none;
+} 
+/***GET STARTED***/
+#signup h3 {
+	font-size: 40px;
+	background-color: red;
+	color: white;
+}
 /******FOOTER******/
 footer {
-	background-color: blue;
+	margin-top: 50px;
+}
+.social-links {
+	float: right;
+}
+.social-links li { 
+	padding-right: 15px;
+}
+footer {
+	width: 100%;
+	height: 40px;
+	background-color: rgba(117, 60, 68, 0.42);
 	border-style: 5px solid black;
 }
